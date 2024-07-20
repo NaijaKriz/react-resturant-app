@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes custom-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .custom-spin {
+    animation: custom-spin 40s linear infinite;
+  }
